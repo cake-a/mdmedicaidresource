@@ -16,6 +16,7 @@
 .column3 {
   float: left;
   width: 67%;
+  text-align: center;
 }
 
 /* Clear floats after the columns */
@@ -27,23 +28,21 @@
 
 body {
   background: #0047AB;
-  color: #fff;
-  padding: 15px;
+  color: #ffffff;
 }
 
 main {
   background-color: #ffffff;
-  color: black;
+  color: #000000;
   word-spacing: 0.25em;
   line-height: 20px;
   border: 1px #cdcdcd double;
 }
 
 header {
-  font-size: 30px;
+  font-size: 25px;
   letter-spacing: 4px;
-  line-height: 90px;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 15px;
   color: #FFFFFF;
 }
@@ -54,11 +53,11 @@ header {
 
 h2 {
   text-align: center;
+  color: #FFFFFF;
 }
 
 h2 a {
-  font-size: 24px;
-  line-height: 1.5em;
+  font-size: 28px;
   color: #ffffff;
 }
 
@@ -68,34 +67,34 @@ h2 a:hover {
 
 h3 {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 26px;
   text-align: center;
   padding: 15px;
 }
 
 h4 {
-  font-size: 17px;
+  font-size: 20px;
   letter-spacing: 4px;
   text-align: center;
   display: block;
-  background-color: #dfdfdf;
+  background-color: #efefef;
   color: #000000;
-  padding: 15px;
+  padding: 10px;
   border: 2px #a9a9a9 double;
 }
 
 h5 {
-  font-size: 17px;
+  font-size: 18px;
   letter-spacing: 4px;
   text-align: center;
   background-color: #ffffff;
-  color: #FFFFFF;
+  color: #000000;
   padding: 20px;
 }
 
 .updates {
   text-align: right;
-  font-size: 14px;
+  font-size: 16px;
   padding: 10px;
   color: #000000;
 }
@@ -124,21 +123,25 @@ ul {
 search {
   font-size: 17px;
   text-align: center;
-  background-color: #e7e7e7;
-  border: 2px #a9a9a9 double;
-  padding: 20px;
+  background-color: #efefef;
+  padding: 10px;
 }
 
 img {
-  max-width: 810px;
+  max-width: 830px;
+}
+
+.img {
+  text-align: center;
 }
 
 a {
   cursor: pointer;
+  font-weight: bolder;
 }
 
 a:link {
-  color: #cdcdcd;
+  color: #cccccc;
   text-decoration: none;
 }
 
@@ -148,4 +151,40 @@ a:visited {
 
 a:hover {
   text-decoration: none;
+}
+
+.lang {
+  text-align: right;
+  padding: 8px;
+  font-size: 16px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
+p {
+  font-size: 18px;
 }
