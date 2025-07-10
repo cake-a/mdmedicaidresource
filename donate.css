@@ -8,7 +8,6 @@
 body {
     background: #0047AB;
     color: #000000;
-    padding: 15px;
 }
   
 main {
@@ -19,27 +18,26 @@ main {
 }
   
 header {
-    font-size: 30px;
+    font-size: 25px;
     letter-spacing: 4px;
-    line-height: 90px;
-    padding-top: 20px;
+    padding-top: 0px;
     padding-bottom: 15px;
     color: #FFFFFF;
-}
+  }
   
 .header {
     text-align: center;
 }
 
 h2 {
-    font-size: 24px;
     text-align: center;
+    color: #FFFFFF;
 }
   
 h2 a {
-    line-height: 1.5em;
-    color: #FFFFFF;
-}
+    font-size: 28px;
+    color: #ffffff;
+  }
   
 h2 a:hover {
     color: rgb(0, 0, 0);  
@@ -47,7 +45,7 @@ h2 a:hover {
 
 h3 {
     color: #ffffff;
-    font-size: 20px;
+    font-size: 26px;
     text-align: center;
     padding: 15px;
 }
@@ -60,11 +58,11 @@ h4 {
 }
 
 h5 {
-    font-size: 17px;
+    font-size: 18px;
     letter-spacing: 4px;
     text-align: center;
     background-color: #ffffff;
-    color: #FFFFFF;
+    color: #000000;
     padding: 20px;
 }
 
@@ -76,7 +74,7 @@ h5 {
 
 .updates {
     text-align: right;
-    font-size: 14px;
+    font-size: 16px;
     padding: 10px;
     color: #000000;
 }
@@ -98,12 +96,13 @@ footer a:hover {
     color: #000000;
 }
 
-a:link {
-    color: #cdcdcd;
-    text-decoration: none;
-  }
+a {
+    cursor: pointer;
+    font-weight: bolder;
+}
 
 a:link {
+    color: #cccccc;
     text-decoration: none;
 }
 
@@ -117,4 +116,61 @@ a:hover {
 
 p {
     text-align: center;
+}
+
+.lang {
+    text-align: right;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.progressbar {
+    background-color: rgb(0, 175, 0);
+    color: #FFFFFF;
+    padding: 15px;
+    width: 800px;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+}
+
+.center .progressbar {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.donate {
+    text-align: center;
+    padding: 8px;
+}
+
+.donate a {
+    color: #000000;
+}
+
+p {
+    font-size: 18px;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    border: 0.5px #000000 solid;
+    font-size: 18px;
+    padding: 5px;
+}
+
+p {
+    padding: 15px;
+}
+
+td {
+    padding: 10px 25px;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
 }
