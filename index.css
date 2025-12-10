@@ -127,14 +127,6 @@ search {
   padding: 10px;
 }
 
-img {
-  max-width: 830px;
-}
-
-.img {
-  text-align: center;
-}
-
 a {
   cursor: pointer;
   font-weight: bolder;
