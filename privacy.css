@@ -97,7 +97,6 @@ footer a:hover {
 }
 
 a {
-    cursor: pointer;
     font-weight: bolder;
 }
 
@@ -106,10 +105,7 @@ a:link {
     text-decoration: none;
   }
 
-a:visited {
-    text-decoration: none;
-}
-
+a:visited,
 a:hover {
     text-decoration: none;
 }
@@ -122,4 +118,6 @@ a:hover {
 
 p {
     font-size: 18px;
+    text-align: center;
 }
+
